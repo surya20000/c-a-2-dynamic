@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(190,217,218);">
+    <div class="win-img">
+            <img src="https://th.bing.com/th/id/OIP.q3_Ukc0xieyCFmnzLMAQggHaHa?pid=ImgDet&rs=1" alt="">
+    </div>
+    <div class="info">
+        <button class="move" style="font-size: 35px; background-color: rgb(210,236,107); padding: 6px;
+        border-radius: 10px; ">No. of moves: <span id="moves-board">0</span></button>
+        <span id="name-box"></span>
+        <button id="plAga">Play Again</button>
+    </div>
+</body>
+<script src="end.js">
+    const replay = document.getElementById("plAga");
+replay.onclick = () => {
+    location.href = "game.html"
+};
+</script>
+</html>
