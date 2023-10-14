@@ -4,7 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentBlock;
   let otherBlock;
   let moves = 0;
-  var imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+  var imgOrder = ["./kalvium-spliced-img/1.jpg",
+         "./kalvium-spliced-img/2.jpg",
+         "./kalvium-spliced-img/3.jpg",
+         "./kalvium-spliced-img/4.jpg",
+         "./kalvium-spliced-img/5.jpg",
+         "./kalvium-spliced-img/6.jpg",
+         "./kalvium-spliced-img/7.jpg",
+         "./kalvium-spliced-img/8.jpg",
+         "./kalvium-spliced-img/9.jpg"]
+        ;
 
   const nextGameButton = document.getElementById("nextgame");
 
